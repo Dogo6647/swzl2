@@ -20,7 +20,15 @@ As of now, no compression is implemented whatsoever.
 ## How To Use
 ```
 ./install.sh
+
 ```
+or
+```
+makecommand
+*insert path to swzl2*
+```
+to make the command on Windows
+
 This repo includes two things:
 - `libswzl2`: The library itself so you can use it anywhere you want.
 - `swzlr` (Swizzler): A CLI for encoding/decoding swzl2 images.
