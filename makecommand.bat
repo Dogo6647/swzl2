@@ -1,1 +1,4 @@
-python -c "a=input('');a=f'@echo off \npython \"{a}swzlr.py\" %*';print(a.replace('\\','\\\\'), end='')" > "C:/WINDOWS/swzlr.bat"
+@echo off
+rem hope this works
+echo @echo off >> C:/WINDOWS/swzlr.bat
+echo "python \"%*\" \%*"  >> C:/WINDOWS/swzlr.bat
