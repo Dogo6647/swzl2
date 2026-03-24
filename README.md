@@ -24,8 +24,7 @@ On Unix-like:
 ```
 or, on Windows:
 ```
-makecommand
-path\to\swzl2
+makecommand path\to\swzl2
 ```
 
 This repo includes two things:
