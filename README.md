@@ -3,7 +3,7 @@ A simple lossless image format and compact single-file library for it made becau
 i just wanted to make an image format. So yeah, not really designed for efficiency (although 
 it does make an effort to be somewhat small), but for simplicity.
 
-The standard file extensions for this format are `.swzl2` and `.sw2l`.
+The standard file extensions for this format are `.swzl2`, `.sm2` and `.sw2l`.
 
 ## File Spec
 - There's a magic string at the start of the file that contains the letters "SM" and a bit
@@ -24,7 +24,8 @@ On Unix-like:
 ```
 or, on Windows:
 ```
-makecommand path\to\swzl2
+makecommand
+path\to\swzl2
 ```
 
 This repo includes two things:
